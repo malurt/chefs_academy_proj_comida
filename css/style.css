@@ -1,13 +1,68 @@
-
 header
 {
-    background-color: rgb(174, 174, 216);
+    background-color: rgb(174, 174, 216); /*APENAS PARA ORGANIZAÇÃO*/
+    display: flex; 
+    flex-direction: column; /*coloca a parte dos links acima do titulo, como uma coluna*/
+    gap: 60px; /*afasta o título da parte dos links*/
+    padding-top: 5vh; /*dá um espacinho em cima*/
+    padding-left: 8vh; /*dá um espaço na esquerda*/
+    padding-bottom: 8vh; /*dá um espaço na esquerda*/
 }
-main
+
+.cabeçalho
 {
-    background-color: darksalmon;
+   background-color: blue; /*APENAS PARA ORGANIZAÇÃO*/
+    display: flex; /*coloca o logo e os links um ao lado do outro EM LINHA*/
+    justify-content:space-around; /* organiza o título e o conteiner dos links com espaço entre eles e em relação as bordas*/
+    padding-top: 3px; /*APENAS PARA ORGANIZAÇÃO*/
 }
-footer
+
+.navHeader
 {
-    background-color: grey;
+    background-color: rgb(43, 226, 186); /*APENAS PARA ORGANIZAÇÃO*/
+    width: 80%; /*largura do conteiner dos links do cabeçalho*/
+    display: flex;
+    flex-direction: row; /* coloca os links um ao lado do outro EM LINHA*/
+    justify-content: space-between; /* organiza os dois conteiners de links com espaço entre eles */
+    align-items: center; /* deixa tudo centralizado verticalmente */
 }
+
+.linksSite
+{
+    background-color: crimson; /*APENAS PARA ORGANIZAÇÃO*/
+    display: flex;
+    flex-direction: row; /* coloca os links um ao lado do outro EM LINHA*/
+    gap: 100px;
+}
+
+
+.linksLogin
+{
+    background-color: darkorange; /*APENAS PARA ORGANIZAÇÃO*/
+    display: flex;
+    flex-direction: row; /* coloca os links um ao lado do outro EM LINHA*/
+    gap: 100px;
+}
+
+h1
+{
+    font-family: 'Playfair Display', serif; 
+    font-size: 80px;
+    max-width: 15vw;
+    margin-left: 2vh;
+}
+
+h2
+{
+    font-family: 'Playfair Display', serif; 
+    font-size: 25px;
+}
+
+li, a
+{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Jost', sans-serif;
+    color: black;
+}
+
