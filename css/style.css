@@ -66,3 +66,174 @@ li, a
     color: black;
 }
 
+main
+{
+    background-color: darksalmon; /*APENAS PARA ORGANIZAÇÃO*/
+    display: flex; /* coloca a nav vertical e o conteiner de conteúdo um ao lado do outro, EM LINHA*/
+    padding-left: 8vh;
+    padding-top: 8vh;
+    gap: 15vh; /* espaço entre a nav vertical e a div de conteúdo*/
+}
+
+main h2
+{
+    font-family: 'Playfair Display', serif; 
+    font-size: 40px;
+}
+.geralNavVertical
+{
+    background-color: chocolate; /*APENAS PARA ORGANIZAÇÃO*/
+    width: 12%;  /*definindo a largura*/
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /*espaço entre o título e as opções*/
+    padding: 7px;
+}
+
+.conteudoprincipal
+{
+    background-color: blueviolet; /*APENAS PARA ORGANIZAÇÃO*/
+    display: flex;
+    gap: 20px; /*dando espaço entre a barra de pesquisa e o conteúdo de baixo*/
+    flex-direction: column; /*coloca a barra de pesquisa/filtro acima do conteudo gerla, EM COLUNA*/
+    width: 70%; /*definindo a largura*/
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+}
+
+
+.pesquisaFiltro
+{
+    background-color: darkblue; /*APENAS PARA ORGANIZAÇÃO*/
+    display: flex; /* coloca a barra de pesquisa e o filtro um ao lado do outro, EM LINHA*/
+    justify-content: space-between; /* deixa um espaço entre o filtro e a barrra*/
+    align-items: center;  /* centraliza na vertical*/
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+
+}
+
+.Menufiltro
+{
+    display: flex; /* coloca o rótulo "sort by" ao lado das opções do menu, EM LINHA*/
+}
+
+.listaFiltro /*FAZER MENÚ*/
+{
+    list-style: none;  /*SÓ DE ENFEITE, APAGAAAR*/
+}
+
+.divbarrapesquisa /*DIV DA BARRA DE PESQUISA*/
+{
+    background-color: rgb(183, 228, 228); /*APENAS PARA ORGANIZAÇÃO*/
+    width: 100%;
+    height: 40px;
+    border: 1px;
+    border-radius:15px;
+    width:300px;
+
+}
+
+.caixaPesquisa /*CAIXA DE ENTRADA DE TEXTO DA PESQUISA*/
+{
+    background-color:transparent;
+    border-radius:15px;
+    padding-left:5px;
+    font-size:18px;
+    font-family: 'Jost', sans-serif;
+    border-style:none;
+    height:100%;
+    width:100%;
+}
+
+
+.geralConteudo
+{
+    background-color: rgb(133, 153, 77);/*APENAS PARA ORGANIZAÇÃO*/
+    padding-left: 7px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 9px;
+    display: flex; /*coloca o conteudo principal ao lado dos dois conteúdos secundários, EM LINHA*/
+    gap: 20px; /*da um espaço entre o conteúdo principal e o secundário*/
+    
+}
+
+.contPrinc
+{
+    background-color: darkred;
+    width: 60%; 
+    border-radius: 15px;
+    padding: 6px;
+}
+
+.contSecunGeral
+{
+    background-color: yellow;
+    
+    padding-left: 7px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 9px;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column; /*deixa os dois quadrados de conteúdo um em cima do outro, NUMA COLUNA*/
+    gap: 20px; /*espaçamento entre os doid bloquinhos de conteúdo*/
+}
+
+.PrimeiroContSec
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+.SecgundoContSec
+{
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 6px;
+    color: white;
+}
+
+
+.listaNavVertical
+{
+    background-color: violet;
+    display: flex;
+    flex-direction: column; /*colocas as opções uma abaixo da outra*/
+    gap: 10px; 
+}
+.linkNavVertical
+{
+    display: flex;
+    flex-direction: column; /*colocas as opções uma abaixo da outra*/
+    justify-content: center;
+    background-color: teal;
+    width: 100%;
+    height: 40px;;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+
+
+
+footer
+{
+    background-color: rgb(52, 180, 138);
+}
+/* TESTES FEITOS
+
+    font-family: 'Abril Fatface', cursive;
+    font-family:'EB Garamond', serif;
+    font-family:'Abril Fatface', cursive;
+    font-family: 'Viaoda Libre', cursive;
+
+
+
+*/
