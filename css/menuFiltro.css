@@ -1,0 +1,32 @@
+.listaFiltro
+{
+    margin-top: 1px;
+    display: none;
+    font-size: 18px;
+    position: absolute;
+}
+
+.menufiltro
+{
+    display: flex;
+    gap: 20px; /* espaçamento entre os objetos TAMBÉM É DO FLEX*/
+    list-style-type: none; /* tira as bolinhas da lista, que no caso é o link*/
+}
+
+/*______________________________PROBLEMAS ________________________*/
+.menufiltro p:hover > .listaFiltro
+{
+    display: block;
+}
+
+
+.listaFiltro a
+{
+    width: 150%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+    background-color: #ffffffbb;
+    float: inline-end;
+    position: relative;
+}

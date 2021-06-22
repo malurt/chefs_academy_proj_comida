@@ -12,9 +12,9 @@ header
 .cabeçalho
 {
    background-color: blue; /*APENAS PARA ORGANIZAÇÃO*/
-    display: flex; /*coloca o logo e os links um ao lado do outro EM LINHA*/
-    justify-content:space-around; /* organiza o título e o conteiner dos links com espaço entre eles e em relação as bordas*/
-    padding-top: 3px; /*APENAS PARA ORGANIZAÇÃO*/
+   display: flex; /*coloca o logo e os links um ao lado do outro EM LINHA*/
+   justify-content:space-around; /* organiza o título e o conteiner dos links com espaço entre eles e em relação as bordas*/
+   padding-top: 3px; /*APENAS PARA ORGANIZAÇÃO*/
 }
 
 .navHeader
@@ -23,8 +23,9 @@ header
     width: 80%; /*largura do conteiner dos links do cabeçalho*/
     display: flex;
     flex-direction: row; /* coloca os links um ao lado do outro EM LINHA*/
-    justify-content: space-between; /* organiza os dois conteiners de links com espaço entre eles */
+    justify-content: space-around; /* organiza os dois conteiners de links com espaço entre eles */
     align-items: center; /* deixa tudo centralizado verticalmente */
+    font-size: 15px;
 }
 
 .linksSite
@@ -35,27 +36,74 @@ header
     gap: 100px;
 }
 
+.linksSite a:hover
+{
+    font-weight: bold;
+}
 
 .linksLogin
 {
     background-color: darkorange; /*APENAS PARA ORGANIZAÇÃO*/
     display: flex;
     flex-direction: row; /* coloca os links um ao lado do outro EM LINHA*/
-    gap: 100px;
+    width: 190px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.signup a 
+{
+    font-weight: 8000000px;
+}
+
+.signup:hover
+{
+    background-color: #FEBD2F;
+    transition: 0.5s;
 }
 
 h1
 {
-    font-family: 'Playfair Display', serif; 
     font-size: 80px;
-    max-width: 15vw;
+    max-width: 30vw;
     margin-left: 2vh;
+}
+
+.h1segundo
+{
+    /* background-color: darkslateblue; */
+    display: flex;
+    padding-left: 20%;
+    text-align: left;
+}
+
+.h1primeiro, .h1segundo, .h1terceiro
+{
+    font-family: 'Playfair Display', serif;
 }
 
 h2
 {
     font-family: 'Playfair Display', serif; 
     font-size: 25px;
+}
+
+h3, h4, p
+{
+    font-family: 'Jost', sans-serif;
 }
 
 li, a
@@ -116,25 +164,26 @@ main h2
 
 }
 
-.Menufiltro
+.menufiltro
 {
     display: flex; /* coloca o rótulo "sort by" ao lado das opções do menu, EM LINHA*/
+    background-color: white;
+    width:15%;
+    height: 100%;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
-.listaFiltro /*FAZER MENÚ*/
-{
-    list-style: none;  /*SÓ DE ENFEITE, APAGAAAR*/
-}
 
 .divbarrapesquisa /*DIV DA BARRA DE PESQUISA*/
 {
     background-color: rgb(183, 228, 228); /*APENAS PARA ORGANIZAÇÃO*/
-    width: 100%;
+    width: 60%;
     height: 40px;
     border: 1px;
     border-radius:15px;
-    width:300px;
-
 }
 
 .caixaPesquisa /*CAIXA DE ENTRADA DE TEXTO DA PESQUISA*/
@@ -159,7 +208,6 @@ main h2
     padding-right: 9px;
     display: flex; /*coloca o conteudo principal ao lado dos dois conteúdos secundários, EM LINHA*/
     gap: 20px; /*da um espaço entre o conteúdo principal e o secundário*/
-    
 }
 
 .contPrinc
@@ -188,14 +236,14 @@ main h2
 .PrimeiroContSec
 {
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 6px;
 }
 
 .SecgundoContSec
 {
     background-color: rgb(0, 0, 0);
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 6px;
     color: white;
 }
@@ -220,6 +268,26 @@ main h2
     padding-left: 10px;
 }
 
+.linkNavVertical:hover
+{
+    background-color: #FEBD2F;
+    transition: 0.5s;
+}
+
+/*ARRUMAR*/
+.linkNavVertical:active
+{
+    background-color: #081666;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -227,6 +295,10 @@ footer
 {
     background-color: rgb(52, 180, 138);
 }
+
+
+
+
 /* TESTES FEITOS
 
     font-family: 'Abril Fatface', cursive;
