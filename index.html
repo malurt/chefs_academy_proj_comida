@@ -7,7 +7,8 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menuFiltro.css">
+
+    <script src="https://kit.fontawesome.com/a757f2d5f7.js" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">  
@@ -42,12 +43,14 @@
             </nav>
         </div>
 
-        <div class="titulo">
+        <div class="tituloImagem">
             <h1>
                 <div class="h1primeiro">Chefs</div>
                 <div class="h1segundo">Academy</div>
                 <div class="h1terceiro">Secrets</div>
             </h1>
+            <img src="./img/COZINHEIRA HEADER.png" alt="Cozinheira">
+
         </div>
 
     </header>
@@ -75,47 +78,106 @@
     
                 <div class="menufiltro">
                     <p>Sort by:</p>
-                    <nav>
-                        <ul class="listaFiltro">
-                            <li class="opcaoFiltro"><a href="#">Newest</a></li>
-                            <li class="opcaoFiltro"><a href="#">Oldest</a></li>
-                            <li class="opcaoFiltro"><a href="#">Dearest</a></li>
-                        </ul>
-                    </nav>
+
+                        <select name="Filter by" id="listaFiltro">
+                            <option selected>Newest</option>
+                            <option>Oldest</option>
+                            <option>Dearest</option>
+                        </select>
                 </div>
             </div>
     
             <div class="geralConteudo">
                 <div class="contPrinc">
-                    <img src="#" alt="Imagem do prato">
-                    <h3>Citrus Salad with berries </h3>
-                    <p>
-                        In the season of fresh straberries, I suggest making
-                        a very tasty and simples pie with this wonderful berry
-                    </p>
-                    <p class="subtitulo">Servig</p>
-                    <p class="barrinha">|</p>
-                    <p class="subtitulo">Cook Time</p>
-                    <p>1h15m</p>
+                   
+                    <div class="ImagemPratoPrincipal">
+                        <img src="./img/PRATO_CONT._PRINCIPAL_S_FUNDO.png" alt="ImagemPratoPrincipal">
+                    </div>
+                    
+                    <div class="TextosContPrincipal">
+                        <h3>Citrus Salad with berries </h3>
+                        <p>
+                            In the season of fresh straberries, I suggest making
+                            a very tasty and simples pie with this wonderful berry
+                        </p>
+                        
+                        <div class="infosPratos">
+                            <div class="serving">
+                                <p class="subtitulo">Servig</p>
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            
+                            <div class="barrinhaDiv">
+                                <p class="barrinha">|</p>
+                            </div>
+
+                            <div class="cookTimeDiv">
+                                <p class="subtitulo">Cook Time</p>
+                                <p class="CookTimeHora">1h15m</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
                 </div>
                
     
                 <div class="contSecunGeral">
                     <div class="PrimeiroContSec">
-                        <img src="#" alt="Imagem do prato">
-                        <h4>Avocado Salad</h4>
-                        <p class="subtitulo">Servig</p>
-                        <p class="barrinha">|</p>
-                        <p class="subtitulo">Cook Time</p>
-                        <p>1h30m</p>
+
+                        <div class="ImagemPratoSec1">
+                            <img src="#" alt="ImagemPratoSec1"> 
+                        </div> 
+
+                        <div class="TextosContSec1">
+                            <h4>Avocado Salad</h4>
+                            <div class="infosPratosSec">
+
+                                <div class="serving">
+                                    <p class="subtitulo">Servig</p>
+                                    <i class="fas fa-user-friends"></i>
+                                </div>
+                                
+                                <div class="barrinhaDiv">
+                                    <p class="barrinha">|</p>
+                                </div>
+
+                                <div class="cookTimeDiv">
+                                    <p class="subtitulo">Cook Time</p>
+                                    <p class="CookTimeHora">1h30m</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
                     </div>
-                    <div class="SecgundoContSec">
-                        <img src="#" alt="Imagem do prato">
-                        <h4>Green Chicken Pasta</h4>
-                        <p class="subtitulo">Servig</p>
-                        <p class="barrinha">|</p>
-                        <p class="subtitulo">Cook Time</p>
-                        <p>1h30m</p>
+                    <div class="SegundoContSec">
+                        <di class="ImagemPratoSec2">
+                            <img src="#" alt="ImagemPratoSec2">
+                        </di>
+
+                        <div class="TextosContSec2">
+                            <h4>Green Chicken Pasta</h4>
+                            <div class="infosPratosSec">
+
+                                <div class="serving">
+                                    <p class="subtitulo">Servig</p>
+                                    <i class="fas fa-user-friends"></i>
+                                </div>
+                                
+                                <div class="barrinhaDiv">
+                                    <p class="barrinha">|</p>
+                                </div>
+
+                                <div class="cookTimeDiv">
+                                    <p class="subtitulo">Cook Time</p>
+                                    <p class="CookTimeHora">1h50m</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
                     </div>
     
                 </div>
