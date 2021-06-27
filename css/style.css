@@ -7,7 +7,9 @@ header
     padding-top: 5vh; /*dá um espacinho em cima*/
     padding-left: 8vh; /*dá um espaço na esquerda*/
     padding-bottom: 8vh; /*dá um espaço na esquerda*/
+    height: 83vh;
 }
+
 
 .cabeçalho
 {
