@@ -193,7 +193,7 @@ main h2
 }
 .divbarrapesquisa i
 {
-    color: rgb(245, 217, 245);
+    color: rgb(110, 108, 110);
 }
 
 .caixaPesquisa /*CAIXA DE ENTRADA DE TEXTO DA PESQUISA*/
@@ -400,7 +400,7 @@ h4
 footer
 {
     background-color: #FEBD2F;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     
