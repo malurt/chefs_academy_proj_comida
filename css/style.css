@@ -125,6 +125,7 @@ main
     padding-left: 8vh;
     padding-top: 8vh;
     gap: 15vh; /* espaço entre a nav vertical e a div de conteúdo*/
+    height: 80vh;
 }
 
 main h2
