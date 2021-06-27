@@ -1,6 +1,6 @@
 header
 {
-    background-color: rgb(174, 174, 216); /*APENAS PARA ORGANIZAÇÃO*/
+    background-color: #FEBD2F; /*APENAS PARA ORGANIZAÇÃO*/
     display: flex; 
     flex-direction: column; /*coloca a parte dos links acima do titulo, como uma coluna*/
     gap: 60px; /*afasta o título da parte dos links*/
@@ -11,7 +11,7 @@ header
 
 .cabeçalho
 {
-   background-color: blue; /*APENAS PARA ORGANIZAÇÃO*/
+   /*background-color: blue; /*APENAS PARA ORGANIZAÇÃO*/
    display: flex; /*coloca o logo e os links um ao lado do outro EM LINHA*/
    justify-content:space-around; /* organiza o título e o conteiner dos links com espaço entre eles e em relação as bordas*/
    padding-top: 3px; /*APENAS PARA ORGANIZAÇÃO*/
@@ -19,7 +19,7 @@ header
 
 .navHeader
 {
-    background-color: rgb(43, 226, 186); /*APENAS PARA ORGANIZAÇÃO*/
+    /*background-color: rgb(43, 226, 186); /*APENAS PARA ORGANIZAÇÃO*/
     width: 80%; /*largura do conteiner dos links do cabeçalho*/
     display: flex;
     flex-direction: row; /* coloca os links um ao lado do outro EM LINHA*/
@@ -30,7 +30,7 @@ header
 
 .linksSite
 {
-    background-color: crimson; /*APENAS PARA ORGANIZAÇÃO*/
+    /*background-color: crimson; /*APENAS PARA ORGANIZAÇÃO*/
     display: flex;
     flex-direction: row; /* coloca os links um ao lado do outro EM LINHA*/
     gap: 100px;
@@ -43,7 +43,7 @@ header
 
 .linksLogin
 {
-    background-color: darkorange; /*APENAS PARA ORGANIZAÇÃO*/
+   /* background-color: darkorange; /*APENAS PARA ORGANIZAÇÃO*/
     display: flex;
     flex-direction: row; /* coloca os links um ao lado do outro EM LINHA*/
     width: 190px;
@@ -62,11 +62,6 @@ header
     align-items: center;
     justify-content: center;
     font-weight: bold;
-}
-
-.signup a 
-{
-    font-weight: 8000000px;
 }
 
 .signup:hover
@@ -123,7 +118,7 @@ li, a
 
 main
 {
-    background-color: darksalmon; /*APENAS PARA ORGANIZAÇÃO*/
+    background-color: #f5f3f0; /*APENAS PARA ORGANIZAÇÃO*/
     display: flex; /* coloca a nav vertical e o conteiner de conteúdo um ao lado do outro, EM LINHA*/
     padding-left: 8vh;
     padding-top: 8vh;
@@ -137,7 +132,7 @@ main h2
 }
 .geralNavVertical
 {
-    background-color: chocolate; /*APENAS PARA ORGANIZAÇÃO*/
+    /*background-color: chocolate; /*APENAS PARA ORGANIZAÇÃO*/
     width: 12%;  /*definindo a largura*/
     display: flex;
     flex-direction: column;
@@ -147,7 +142,7 @@ main h2
 
 .conteudoprincipal
 {
-    background-color: blueviolet; /*APENAS PARA ORGANIZAÇÃO*/
+    /*background-color: blueviolet; /*APENAS PARA ORGANIZAÇÃO*/
     display: flex;
     gap: 20px; /*dando espaço entre a barra de pesquisa e o conteúdo de baixo*/
     flex-direction: column; /*coloca a barra de pesquisa/filtro acima do conteudo gerla, EM COLUNA*/
@@ -158,10 +153,9 @@ main h2
     padding-bottom: 7px;
 }
 
-
 .pesquisaFiltro
 {
-    background-color: darkblue; /*APENAS PARA ORGANIZAÇÃO*/
+    /*background-color: darkblue; /*APENAS PARA ORGANIZAÇÃO*/
     display: flex; /* coloca a barra de pesquisa e o filtro um ao lado do outro, EM LINHA*/
     justify-content: space-between; /* deixa um espaço entre o filtro e a barrra*/
     align-items: center;  /* centraliza na vertical*/
@@ -186,11 +180,12 @@ main h2
 
 .divbarrapesquisa /*DIV DA BARRA DE PESQUISA*/
 {
-    background-color: rgb(183, 228, 228); /*APENAS PARA ORGANIZAÇÃO*/
+    background-color: transparent; /*APENAS PARA ORGANIZAÇÃO*/
     width: 60%;
     height: 40px;
     border: 1px;
     border-radius:15px;
+    border-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     padding-left: 5px;
@@ -200,7 +195,6 @@ main h2
 {
     color: rgb(245, 217, 245);
 }
-
 
 .caixaPesquisa /*CAIXA DE ENTRADA DE TEXTO DA PESQUISA*/
 {
@@ -217,7 +211,7 @@ main h2
 
 .geralConteudo
 {
-    background-color: rgb(133, 153, 77);/*APENAS PARA ORGANIZAÇÃO*/
+   /* background-color: rgb(133, 153, 77);/*APENAS PARA ORGANIZAÇÃO*/
     padding-left: 7px;
     padding-top: 9px;
     padding-bottom: 9px;
@@ -228,7 +222,7 @@ main h2
 
 .contPrinc
 {
-    background-color: darkred;
+    background-color: white;
     width: 60%; 
     border-radius: 15px;
     padding: 6px;
@@ -236,7 +230,7 @@ main h2
 
 .contSecunGeral
 {
-    background-color: yellow;
+    /*background-color: yellow;*/
     
     padding-left: 7px;
     padding-top: 9px;
@@ -273,7 +267,7 @@ main h2
 
 .listaNavVertical
 {
-    background-color: violet;
+    /*background-color: violet;*/
     display: flex;
     flex-direction: column; /*colocas as opções uma abaixo da outra*/
     gap: 10px; 
@@ -285,11 +279,12 @@ main h2
     gap: 7px;
     align-content: center;
     align-items: center;
-    background-color: teal;
+    /*background-color: rgb(47, 153, 153);*/
     width: 100%;
     height: 40px;;
     border-radius: 15px;
     padding-left: 10px;
+    border-color:rgb(184, 33, 33);
 }
 
 .iconeListaVertical
@@ -368,13 +363,6 @@ h4
 }
 
 
-
-
-
-
-
-
-
 /* ORGANIZAÇÃO PADRÃO DAS INFORMAÇÕES DO PRATO */
 .infosPratos, .infosPratosSec
 {
@@ -409,12 +397,12 @@ h4
 }
 
 
-
-
-
 footer
 {
-    background-color: rgb(52, 180, 138);
+    background-color: #FEBD2F;
+    color: white;
+    display: flex;
+    justify-content: center;
     
 }
 
