@@ -411,11 +411,14 @@ footer
     background-color: #FEBD2F;
     color: black;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
-
+#Copyright::selection
+{
+    background: black;
+    color: white;
+}
 
 /* TESTES FEITOS
 
